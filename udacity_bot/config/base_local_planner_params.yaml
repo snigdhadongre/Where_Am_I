@@ -1,0 +1,24 @@
+TrajectoryPlannerROS:
+
+  holonomic_robot: false
+
+  acc_lim_x: 2
+  acc_lim_y: 2
+  acc_lim_theta: 3.2
+
+  max_vel_x: 0.5
+  min_vel_x: 0.2
+  max_vel_theta: 1.0
+  min_in_place_vel_theta: 0.2
+  escape_vel: -0.5  
+  oscillation_reset_dist: 0.1
+  
+  yaw_goal_tolerance: 0.05
+  xy_goal_tolerance: 0.1
+  sim_time: 0.5
+  meter_scoring: true
+  latch_xy_goal_tolerance: false 
+  publish_cost_grid_pc: false 
+  heading_scoring_timestep: 1.1
+  pdist_scale: 1.1
+  gdist_scale: 0.6
